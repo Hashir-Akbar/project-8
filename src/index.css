@@ -109,13 +109,13 @@ section {
 }
 
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Inconsolata', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 15px;
 
   color-scheme: light dark;
-
+background-color: #f7f5f1;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

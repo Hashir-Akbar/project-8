@@ -1,0 +1,39 @@
+
+.header{
+    position: relative;
+    background-image: url('/src/assets/coffeehouse.jpg');
+    min-height: 75%;
+   filter: grayscale(50%);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+    color: white;
+    padding: .3em;
+}
+.header h1{
+    font-size: 90px;
+    max-width: min-content;
+    margin-inline: auto;
+    margin-block: 1.2em;
+    text-align: center;
+
+}
+.header > div > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+.header > div > div span:first-child{
+    background-color: black;
+    padding-inline: 8px;
+}
+
+@media (max-width:600px){
+    .header > div > div span:first-child{
+        display: none;
+    }
+    .header > div > div{
+        justify-content: end;
+    }
+}
